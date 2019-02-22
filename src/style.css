@@ -1,1 +1,106 @@
-/* Acá va tu código */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Megrim');
+
+* { font-family: 'Montserrat', 
+    sans-serif;
+    margin: 0;
+    color : #fff;
+text-align: center;}
+h1{ font-family: 'Megrim', cursive;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;}
+
+
+
+.root{
+    background-image: url(../src/Computer-security-lock-privacy-images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+    button{
+        background-color: #00000096;
+        border-style: none; 
+        border: 2px solid #fff;
+        border-radius: 2px;
+        padding: 10px;
+        width: 100%
+        }
+
+button:active,button:hover{
+    background-color: #ffffff8a;
+    color: black;
+
+}
+input,textarea{
+    border-radius:5px;
+    border-style:none; 
+    color:#000;
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+    
+.root{
+    position: absolute;
+}
+
+.maincontainer{
+    padding: 5%;
+    
+    position: relative;
+    }
+
+    .threecontainer{
+        
+        text-align: center;
+      
+        display: contents;
+    }
+
+    .columncontainer{    margin-top: 5%;
+        margin-bottom: 5%;
+    }
+@media (min-width: 600px) {
+
+
+
+
+}
+@media (min-width: 900px) {
+
+    .threecontainer {
+        flex: auto;
+        }
+    
+       .columncontainer {
+    flex-direction: column;
+    width: 154%;
+    margin: 2%;
+}
+    
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+    input{
+        height: 121px;
+    }
+    .root{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .offset{
+        display: inline;
+        margin: 2%;
+    }
+    input{    height: 121px;
+    }
+    h1{ font-size: 66px;}
+    label{
+        font-size: 27px;
+    }
+}

@@ -4,10 +4,35 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div class="root">
+      <h1> encripta y desencripta  tus mensajes aqui </h1>
+    <div class="maincontainer">
+      <div class="threecontainer">
+        <div class="columncontainer">
+        <label for="cipher">cifra </label>
+         <textarea placeholder="pon tu mensaje a cifrar..." cols="30" rows="5" id="cipher" name="cipher"></textarea>
+          <button type="button" id="cipherButton">Cifrar</button>
+         <p id="cipherText"></p> 
+        </div> 
+       </div>  
+        
+       <div class="threecontainer offset">
+        <label for="offset">offset </label>
+       <input type="number" id="offset"  placeholder="escribe cuantos espacios quieres mover tu texto..."  >
+       </div>
+       
+       <div class="threecontainer ">
+         <div class="columncontainer">
+        <label for="decipher">descifra </label>
+        <textarea rows="5" cols="30"id="decipher"  placeholder="pon tu mensaje a descifrar..." name="decipher" ></textarea>  
+          <button type="button" id="decipherButton">Descifrar</button>
+          <p id="decipherText"></p> 
+        </div>
+        </div>
+      </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
