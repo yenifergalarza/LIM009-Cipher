@@ -17,12 +17,14 @@ buttonCipher.addEventListener("click", replaceTextjs);
 function replaceTextjs(){
     //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
     //console.log(`${offsetNumber}`)
+    textCipherReplace.innerHTML = "";
     textCipherReplace.innerHTML  += cipher.encode( offsetNumber.value,textAreaCipher.value);
 }
 
 buttonDecipher.addEventListener("click", replaceTextjsD);
 function replaceTextjsD(){
     //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
+    textCipherReplace.innerHTML = "";
     textDecipherReplace.innerHTML  += cipher.decode( offsetNumber.value,textAreaDecipher.value);
 }
 
