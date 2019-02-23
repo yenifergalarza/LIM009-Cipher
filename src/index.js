@@ -16,7 +16,7 @@ const textCipherReplace = document.getElementById("cipherText");
 buttonCipher.addEventListener("click", replaceTextjs);
 function replaceTextjs(){
     //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
-    console.log(`${offsetNumber}`)
+    //console.log(`${offsetNumber}`)
     textCipherReplace.innerHTML  += cipher.encode( offsetNumber.value,textAreaCipher.value);
 }
 

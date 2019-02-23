@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Megrim');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Megrim|Flamenco');
 
 * { font-family: 'Montserrat', 
     sans-serif;
@@ -8,14 +8,22 @@ text-align: center;}
 h1{ font-family: 'Megrim', cursive;
     font-size: 55px;
     font-weight: bold;
-    text-align: center;}
+    text-align: center;
+        background-color: #0A072A;}
+       
+        li,p{
+            padding-top: 2%;
+            font-size: 25px;
+            font-family: 'Montserrat', cursive;
+            list-style:none;
+        }
 
 
 
 .root{
     background-image: url(../src/Computer-security-lock-privacy-images.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
   }
 
@@ -34,6 +42,8 @@ button:active,button:hover{
 
 }
 input,textarea{
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
     border-radius:5px;
     border-style:none; 
     color:#000;
@@ -41,6 +51,8 @@ input,textarea{
     resize: none;
     outline: none;
 }
+label,button{ font-size: 20px;
+    font-family: 'Montserrat', cursive;}
     
 .root{
     position: absolute;
@@ -48,7 +60,9 @@ input,textarea{
 
 .maincontainer{
     padding: 5%;
+    padding-top:2% ;
     
+    padding-bottom:0% ;
     position: relative;
     }
 
@@ -63,6 +77,12 @@ input,textarea{
         margin-bottom: 5%;
     }
 @media (min-width: 600px) {
+    li,p{
+        padding-top: 2%;
+        font-size: 17px;
+        font-family: 'Montserrat', cursive;
+        list-style:none;
+    }
 
 
 
