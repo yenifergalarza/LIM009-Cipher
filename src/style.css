@@ -1,45 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Megrim|Flamenco');
 
-* { font-family: 'Montserrat', 
+* { 
+    font-family: 'Montserrat', 
     sans-serif;
     margin: 0;
     color : #fff;
-text-align: center;}
-h1{ font-family: 'Megrim', cursive;
+    text-align: center;
+}
+h1{ 
+    font-family: 'Megrim', cursive;
     font-size: 55px;
     font-weight: bold;
     text-align: center;
-        background-color: #0A072A;}
+    background-color: #0A072A;
+}
        
-        li,p{
-            padding-top: 2%;
-            font-size: 25px;
-            font-family: 'Montserrat', cursive;
-            list-style:none;
-        }
+ li,p{
+    padding-top: 2%;
+    font-size: 25px;
+    font-family: 'Montserrat', cursive;
+    list-style:none;
+}
 
 
 
 .root{
     background-image: url(../src/Computer-security-lock-privacy-images.jpg);
     background-size: cover;
-    background-repeat: repeat;
-    
-  }
+    background-repeat: repeat;   
+}
 
-    button{
-        background-color: #00000096;
-        border-style: none; 
-        border: 2px solid #fff;
-        border-radius: 2px;
-        padding: 10px;
-        width: 100%
-        }
+button{
+    background-color: #00000096;
+    border-style: none; 
+    border: 2px solid #fff;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%
+}
 
 button:active,button:hover{
     background-color: #ffffff8a;
     color: black;
-
 }
 input,textarea{
     font-size: 20px;
@@ -51,8 +53,10 @@ input,textarea{
     resize: none;
     outline: none;
 }
-label,button{ font-size: 20px;
-    font-family: 'Montserrat', cursive;}
+label,button{ 
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+}
     
 .root{
     position: absolute;
@@ -61,66 +65,61 @@ label,button{ font-size: 20px;
 .maincontainer{
     padding: 5%;
     padding-top:2% ;
-    
     padding-bottom:0% ;
     position: relative;
-    }
+}
 
-    .threecontainer{
-        
-        text-align: center;
-      
-        display: contents;
-    }
+.threecontainer{
+    text-align: center;      
+    display: contents;
+}
 
-    .columncontainer{    margin-top: 5%;
-        margin-bottom: 5%;
-    }
+.columncontainer{    
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 @media (min-width: 600px) {
-    li,p{
-        padding-top: 2%;
-        font-size: 17px;
-        font-family: 'Montserrat', cursive;
-        list-style:none;
+li,p{
+    padding-top: 2%;
+    font-size: 17px;
     }
-
-
-
-
 }
 @media (min-width: 900px) {
 
-    .threecontainer {
-        flex: auto;
-        }
+.threecontainer {
+    flex: auto;
+}
     
-       .columncontainer {
+.columncontainer {
     flex-direction: column;
     width: 154%;
     margin: 2%;
 }
-    
 .maincontainer {
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
-    input{
-        height: 121px;
-    }
-    .root{
-        width: 100%;
-        height: 100%;
-    }
+input{
+    height: 121px;
+}
+.root{
+    width: 100%;
+    height: 100%;
+}
     
-    .offset{
-        display: inline;
-        margin: 2%;
+.offset{
+    display: inline;
+    margin: 2%;
+}
+input{    
+    height: 121px;
     }
-    input{    height: 121px;
-    }
-    h1{ font-size: 66px;}
-    label{
-        font-size: 27px;
+h1{ 
+    font-size: 66px;
+}
+label{
+    font-size: 27px;
     }
 }
