@@ -35,14 +35,33 @@ Algunas ideas de ejemplo:
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
 - Quiénes son los principales usuarios de producto.
+- ====>  personas que generalmente estan expuestas al ojo publico
+
+--------------------------------------------------------
+
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
-  Lograr mayor privacidad
+-  ====> Lograr mayor privacidad,guardar datos con cierto recelo.
+
+----------------------------------------------------------------------------------------------
+
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
-  mediante el cifrado logran tener el significado de forma no explicita
+- ====>  mediante el cifrado logran tener el significado de forma no explicita ,y al estar en una web es facil de acceder y rapido.
+
+-----------------------------------------------------------------------------------------------------
+
+
 #### Interfaz de usuario (UI) :penguin:
--vista en celular
--vista en tablet
--vista en computadora
+- vista en celular
+- ![image](https://user-images.githubusercontent.com/39390011/53353802-7c972780-38f3-11e9-98ce-1e503f6228af.png)
+
+- vista en tablet
+
+- ![image](https://user-images.githubusercontent.com/39390011/53353729-5c676880-38f3-11e9-8e07-65162c02d654.png)
+
+- vista en computadora
+- ![image](https://user-images.githubusercontent.com/39390011/53353682-4659a800-38f3-11e9-83f9-255e6b8c7617.png)
+
+
 
 
 ## Evaluación :penguin:
@@ -50,19 +69,28 @@ En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proces
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es una lista de todas las habilidades involucradas en este proyecto y que evaluaremos cuando lo  completes:
 
-## Diseño de experiencia de usuario (User Experience Design):
+## Diseño de experiencia de usuario (User Experience Design) :penguin: :
 
 - Ideación
+primero pense en establecer un color base ,que transmita la emocion e idea de la pagina de una forma rapida
+elegi el azul por ello ,es un color que representa la confianza,el profesionalismo y la tranquilidad
+
+![image](https://user-images.githubusercontent.com/39390011/53352810-7d2ebe80-38f1-11e9-9c87-33796fc1fe2d.png)
+
+![image](http://reader.digitalbooks.pro/content/preview/books/45900/book/OEBPS/Images/lm05.jpg)
+
 - Prototipado (sketching)
+
+![image](https://user-images.githubusercontent.com/39390011/53355442-085e8300-38f7-11e9-9d14-90cb5d2ec0ba.png)
+
 - Testeo e Iteración
 
 
-## Checklist
+## Checklist :penguin:
 
 Esta sección está  para ayudarte a llevar un control de lo que vas completando.
 
-### Parte Obligatoria
-
+### Parte Obligatoria :penguin: 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
@@ -84,5 +112,5 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 ### Parte Opcional: "Hacker edition"
 
 * [X] Cifra/descifra minúsculas
-* [X] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [X] Permite usar un `offset` negativo.
