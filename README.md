@@ -81,6 +81,7 @@ elegi el azul por ello ,es un color que representa la confianza,el profesionalis
 
 - Prototipado (sketching)
 
+![image](https://user-images.githubusercontent.com/39390011/53355442-085e8300-38f7-11e9-9d14-90cb5d2ec0ba.png)
 
 - Testeo e Iteración
 
