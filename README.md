@@ -35,18 +35,33 @@ Algunas ideas de ejemplo:
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
 - Quiénes son los principales usuarios de producto.
-personas que generalmente estan expuestas al ojo publico
+- ====>  personas que generalmente estan expuestas al ojo publico
+
 --------------------------------------------------------
+
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
-  Lograr mayor privacidad,guardar datos con cierto recelo.
+-  ====> Lograr mayor privacidad,guardar datos con cierto recelo.
+
 ----------------------------------------------------------------------------------------------
+
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
-  mediante el cifrado logran tener el significado de forma no explicita ,y al estar en una web es facil de acceder y rapido.
-  -----------------------------------------------------------------------------------------------------
+- ====>  mediante el cifrado logran tener el significado de forma no explicita ,y al estar en una web es facil de acceder y rapido.
+
+-----------------------------------------------------------------------------------------------------
+
+
 #### Interfaz de usuario (UI) :penguin:
--vista en celular
--vista en tablet
--vista en computadora
+- vista en celular
+- ![image](https://user-images.githubusercontent.com/39390011/53353802-7c972780-38f3-11e9-98ce-1e503f6228af.png)
+
+- vista en tablet
+
+- ![image](https://user-images.githubusercontent.com/39390011/53353729-5c676880-38f3-11e9-8e07-65162c02d654.png)
+
+- vista en computadora
+- ![image](https://user-images.githubusercontent.com/39390011/53353682-4659a800-38f3-11e9-83f9-255e6b8c7617.png)
+
+
 
 
 ## Evaluación :penguin:
