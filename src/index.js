@@ -24,7 +24,7 @@ function replaceTextjs(){
 buttonDecipher.addEventListener("click", replaceTextjsD);
 function replaceTextjsD(){
     //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
-    textCipherReplace.innerHTML = "";
+    textDecipherReplace.innerHTML = "";
     textDecipherReplace.innerHTML  += cipher.decode( offsetNumber.value,textAreaDecipher.value);
 }
 

@@ -9,7 +9,10 @@
   </head>
   <body>
     <div class="root">
+    <header>
       <h1> encripta y desencripta  tus mensajes aqui </h1>
+    </header>
+      
     <div class="maincontainer">
       <div class="principaltext">
         <p>Cifrar significa codificar,El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
@@ -24,28 +27,28 @@
               </ul>
            
       </div>
-      <div class="threecontainer">
+      <article class="threecontainer">
         <div class="columncontainer">
         <label for="cipher">cifra</label>
         <textarea placeholder="pon tu mensaje a cifrar..." cols="30" rows="5" id="cipher" name="cipher"></textarea>
           <button type="button" id="cipherButton">Cifrar</button>
         <p id="cipherText"></p> 
         </div> 
-       </div>  
+       </article >  
         
-       <div class="threecontainer offset">
+       <article class="threecontainer offset">
       <label for="offset">offset </label>
        <input type="number" id="offset" placeholder="escribe cuantos espacios quieres mover tu texto..."  >
-       </div>
+       </article >
        
-       <div class="threecontainer ">
+       <article  class="threecontainer ">
          <div class="columncontainer">
         <label for="decipher">descifra</label>
         <textarea rows="5" cols="30" id="decipher" placeholder="pon tu mensaje a descifrar..." name="decipher"></textarea>  
           <button type="button" id="decipherButton">Descifrar</button>
           <p id="decipherText"></p> 
         </div>
-        </div>
+        </article >
       </div>
     </div>
     <script src="cipher.js"></script>
