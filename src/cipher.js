@@ -4,9 +4,9 @@ window.cipher = {
     let asciiLetter ="";
     for( let i =  0  ; i< string.length;i++){
       //console.log(string[i]);
-     let LetterToAscii= string[i].toUpperCase();
+     let letterToAscii= string[i].toUpperCase();
 
-    asciiLetter +=  String.fromCharCode((LetterToAscii.charCodeAt(0)-65+offset)%26+65);
+    asciiLetter +=  String.fromCharCode((letterToAscii.charCodeAt(0)-65+offset)%26+65);
       //palabramostrada.innerhtml 
     }
     return  asciiLetter.toLowerCase()  ;
@@ -16,8 +16,8 @@ window.cipher = {
     let asciiLetter ="";
     for( let i =  0  ; i< string.length;i++){
       //console.log(string[i]);
-     let LetterToAscii= string[i].toUpperCase();
-    asciiLetter +=  String.fromCharCode((LetterToAscii.charCodeAt(0)+65-offset)%26+65);
+     let letterToAscii= string[i].toUpperCase();
+    asciiLetter +=  String.fromCharCode((letterToAscii.charCodeAt(0)+65-offset)%26+65);
     //palabramostrada.innerhtml 
     }
     return  asciiLetter.toLowerCase()  ;
