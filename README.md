@@ -28,6 +28,8 @@ Algunas ideas de ejemplo:
 - Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
 - Mensajería secreta para parejas.
 
+#### Caso elegido  :penguin:
+Bueno pongamonos en el caso de que somos una persona famosa o una persona que esta siendo amenazada o tal vez  perseguida. Por ende necesitas comunicarte con personas de tu circulo cercano, sin que otras personas se enteren .necesitas privacidad y tambien una forma entendible de comunicacion para tu receptor. asis que le asigne como respuesta el cifrado cesar
 
 
 #### Definición del producto :penguin:
@@ -35,17 +37,17 @@ Algunas ideas de ejemplo:
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
 - Quiénes son los principales usuarios de producto.
-- ====>  personas que generalmente estan expuestas al ojo publico
+- ====>  personas que generalmente estan expuestas al ojo publico,personas perseguidas,personas amenazadas o que siempre estan rodeada de otraas personas y estas interfieren con su comunicacion privada.asi que necesitan hablar con personas de su entorno. 
 
 --------------------------------------------------------
 
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
--  ====> Lograr mayor privacidad,guardar datos con cierto recelo.
+-  ====> Lograr mayor privacidad,entregar datos con cierto recelo,dar lugar a un comunicacion secreta pero entendible y que ademas tenga una interfaz entendible e intuitiva,por lo tanto amigable.
 
 ----------------------------------------------------------------------------------------------
 
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
-- ====>  mediante el cifrado logran tener el significado de forma no explicita ,y al estar en una web es facil de acceder y rapido.
+- ====>  mediante el cifrado logran tener el significado de forma no explicita ,y al estar en una web es facil de acceder y tiene una interfaz que hace su uso mas simple ,y por lo tanto mas rapida.
 
 -----------------------------------------------------------------------------------------------------
 
@@ -72,8 +74,9 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 ## Diseño de experiencia de usuario (User Experience Design) :penguin: :
 
 - Ideación
+
 primero pense en establecer un color base ,que transmita la emocion e idea de la pagina de una forma rapida
-elegi el azul por ello ,es un color que representa la confianza,el profesionalismo y la tranquilidad
+por ello elegi el azul ,es un color que representa la confianza,el profesionalismo y la tranquilidad
 
 ![image](https://user-images.githubusercontent.com/39390011/53352810-7d2ebe80-38f1-11e9-9c87-33796fc1fe2d.png)
 
@@ -81,9 +84,12 @@ elegi el azul por ello ,es un color que representa la confianza,el profesionalis
 
 - Prototipado (sketching)
 
+bueno el prototipado, lo hice de baja fidelidad a mano alzada.cambio segun el feedback obtenido 
+
 ![image](https://user-images.githubusercontent.com/39390011/53355442-085e8300-38f7-11e9-9d14-90cb5d2ec0ba.png)
 
 - Testeo e Iteración
+
 
 
 ## Checklist :penguin:
@@ -91,16 +97,16 @@ elegi el azul por ello ,es un color que representa la confianza,el profesionalis
 Esta sección está  para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria :penguin: 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con el producto.
+* [X] `README.md` explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
 * [X] Usa VanillaJS.
 * [X] No utiliza `this`.
 * [X] Implementa `cipher.encode`.
 * [X] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [X] Pasa linter con configuración provista.
+* [X] Pasa pruebas unitarias.
+* [X] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
 * [X] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
