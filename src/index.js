@@ -10,9 +10,6 @@ const textAreaCipher = document.getElementById("cipher");
 const buttonCipher = document.getElementById("cipherButton");
 const textCipherReplace = document.getElementById("cipherText");
 
-
-
-
 buttonCipher.addEventListener("click", replaceTextjs);
 function replaceTextjs(){
     //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
