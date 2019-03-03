@@ -21,16 +21,16 @@ h1{
 }
 .Header {
   position: relative;
-  height: 80vh;
+
   display: block;
-  margin-bottom: 19%;
+
 }
 .Header-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 154%;
+  height: 131%;
   background: linear-gradient(19deg, #00e7ff, #2149da);
   -webkit-transform-origin: 0px 0px;
   transform-origin: 0px 0px;
@@ -78,9 +78,12 @@ h1{
   text-shadow: 0 0.5rem 1rem rgba(50,0,100,0.1);
 }
 .Header-hero h1 {
-  margin: 0;
-  font-size: 3rem;
+    
+  font-size: 65px;
+   padding: 0px;
 }
+
+
 .Header-hero p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -201,16 +204,19 @@ button:active,button:hover,.Button:active,.Button:hover{
   .Header-content {
       padding: 0;
   }
-  .Iphone::after {border: none;}
+ 
   .Iphone {
   
      background: none;
-     padding: 0;
+     padding: 0px;
     border-radius:0;
      box-shadow:none;
     text-align: center;
 }
 
+.Iphone::after {
+  box-shadow: none;
+}
 .maincontainer {
     border-radius: 7px;
     background: #fff;
@@ -242,7 +248,7 @@ padding:40px;
   max-width: 400px;
 }
 .colum1 h1{
-  font-size: 22px;
+  font-size: 35px;
 }
 .colum1 p{
   font-size: 14px;
@@ -317,7 +323,14 @@ padding: 20px;
   .Button{    margin-left: -31px;
 
   }
-  footer{    margin-top: 430px
+  
+.Header-hero h1 {
+  margin: 0;
+  font-size: 3rem;
+  padding: 51px;
+}
+ 
+  footer{    margin-top:0px;
   }
 }
 @media screen and (max-width:600px){
@@ -340,7 +353,5 @@ padding: 20px;
   .row2 label{
     margin: 0;
   }
-footer {
-  margin-top: 503px;
-}
+
 }
