@@ -1,33 +1,20 @@
-//import { createCipher } from "crypto";
 
-/* Acá va tu código */
-const textAreaDecipher = document.getElementById("decipher");
-const buttonDecipher = document.getElementById("decipherButton");
-const textDecipherReplace = document.getElementById("decipherText");
 const offsetNumber = document.getElementById("offset");
-//let add = () => document.getElementById("firstText").innerHTML = ` ${} `;
-const textAreaCipher = document.getElementById("cipher");
-const buttonCipher = document.getElementById("cipherButton");
-const textCipherReplace = document.getElementById("cipherText");
 
-buttonCipher.addEventListener("click", replaceTextjs);
-function replaceTextjs(){
-    //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
-    //console.log(`${offsetNumber}`)
+const buttonCipher = document.getElementById("cipherButton");
+const  replaceTextjs = ()=>{
+const textAreaCipher = document.getElementById("cipher");
+const textCipherReplace = document.getElementById("cipherText");
     textCipherReplace.innerHTML = "";
     textCipherReplace.innerHTML  += cipher.encode( offsetNumber.value,textAreaCipher.value);
-}
+};
+buttonCipher.addEventListener("click", replaceTextjs);
 
-buttonDecipher.addEventListener("click", replaceTextjsD);
-function replaceTextjsD(){
-    //textCipherReplace.innerHTML  += cipher.encode(offsetNumber,textAreaDecipher);
+const buttonDecipher = document.getElementById("decipherButton");
+const replaceTextjsD= ()=>{
+    const textDecipherReplace = document.getElementById("decipherText");
+    const textAreaDecipher = document.getElementById("decipher");
     textDecipherReplace.innerHTML = "";
     textDecipherReplace.innerHTML  += cipher.decode( offsetNumber.value,textAreaDecipher.value);
 }
-
-
-
-
-
-
-
+buttonDecipher.addEventListener("click", replaceTextjsD);
