@@ -1,21 +1,21 @@
 window.cipher = {
   encode: (offset,string) => {
-    offset=offset%65;
-    let asciiLetter ="";
-    for( let i =  0  ; i< string.length;i++){
-       const letterToAscii= string[i].toUpperCase();
-     asciiLetter +=  String.fromCharCode((letterToAscii.charCodeAt(0)-65+offset)%26+65);
-    }
-    return  asciiLetter.toLowerCase()  ;
-  },
+    string = (string.toUpperCase()).split("");
+    let arrayT = string.map(function(letra) {
+    let trans = String.fromCharCode(( letra.charCodeAt(0)-65+(offset%65))%26+65);
+    return trans; 
+    });
+    arrayT = ((arrayT.join('')).toString()).toLowerCase();
+    return arrayT;
+  }, 
   decode: (offset,string) => {
-    offset=offset%65;
-    let asciiLetter ="";
-    for( let i =  0  ; i< string.length;i++){
-     const letterToAscii= string[i].toUpperCase();
-    asciiLetter +=  String.fromCharCode((letterToAscii.charCodeAt(0)+65-offset)%26+65);
-    }
-    return  asciiLetter.toLowerCase()  ;
+    string = (string.toUpperCase()).split("");
+    let arrayT = string.map(function(letra) {
+    let trans = String.fromCharCode(( letra.charCodeAt(0)+65-(offset%65))%26+65);
+    return trans; 
+    });
+    arrayT = ((arrayT.join('')).toString()).toLowerCase();
+    return arrayT;
   }
 };
 
