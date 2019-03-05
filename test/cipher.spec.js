@@ -23,8 +23,8 @@ describe('cipher', () => {
       assert.equal(cipher.encode(38012345,"abcdefghijklmnopqrstuvwxyz"),"uvwxyzabcdefghijklmnopqrst");  
      });
    
-     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "abcdefghijklmnopqrstuvwxyz" con offset 0', () => {
-      assert.equal(cipher.encode(0,"abcdefghijklmnopqrstuvwxyz"),"abcdefghijklmnopqrstuvwxyz");  
+     it('debería retornar "abc defghijklmnopqrstuvwxyz" para "abc defghijklmnopqrstuvwxyz" con offset 0', () => {
+      assert.equal(cipher.encode(0,"abc defghijklmnopqrstuvwxyz"),"abcdefghijklmnopqrstuvwxyz");  
      });
 
     }
@@ -51,7 +51,7 @@ describe('cipher', () => {
        });
      
        it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "abcdefghijklmnopqrstuvwxyz" con offset 0', () => {
-        assert.equal(cipher.decode(0,"abcdefghijklmnopqrstuvwxyz"),"abcdefghijklmnopqrstuvwxyz");  
+        assert.equal(cipher.decode(0,"abc defghijklmnopqrstuvwxyz"),"abcdefghijklmnopqrstuvwxyz");  
        });
      
     
