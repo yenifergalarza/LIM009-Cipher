@@ -1,113 +1,120 @@
 <!DOCTYPE html>
 
 <html lang="es">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>cifrado cesar </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../src/style.css">
-    <link rel="shortcut icon" href="../src/img/candado.png" type="image/x-icon">
-</head>
-<body>
-    
-<div class="Header">
-  <div class="Header-background"></div>
-  <div class="Header-content">
-    <div class="Header-hero">
-      <h1>SEGURIDAD SIEMPRE <br> A TU ALCANCE</h1>
-      <p>La protección digital que necesitas en tu vida</p>
-      <a class="Button" href="https://yenifergalarza.github.io/LIM009-Cipher/">Lee más</a>
-      
-    </div>
-    <div class="Header-visuals">
-      <div class="Iphone">
-       <div class="maincontainer">
-      <div class="threecontainer">
-        <div class="columncontainer">
-        <label for="cipher">Cifra</label>
-        <textarea placeholder="pon tu mensaje a cifrar..." cols="30" rows="5" id="cipher" name="cipher"></textarea>
-          <button type="button" id="cipherButton">Cifrar</button>
-        <p id="cipherText"></p> 
-        </div> 
-       </div>  
-        
-       <div class="threecontainer offset">
-      <label for="offset">Offset </label>
-       <input type="number" id="offset" placeholder="ingresa un numero y mueve tu texto..." >
-       </div>
-       
-       <div class="threecontainer">
-         <div class="columncontainer">
-        <label for="decipher">Descifra</label>
-        <textarea rows="5" cols="30" id="decipher" placeholder="pon tu mensaje a descifrar..." name="decipher"></textarea>  
-          <button type="button" id="decipherButton">Descifrar</button>
-          <p id="decipherText"></p> 
-        </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-<footer> 
- 
-  <div class="container-footer-all">
-  <div class="container-body">
-  <div class="colum1">
-    <h1>Mas información del proyecto</h1>
-    <p>Cifrar significa codificar, el cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.</p>
-  </div>
-  <div class="colum2">
-    <h1>Redes sociales</h1>
-    <div class="row">
-      <a href="http://facebook.com">
-      <img src="../src/img/facebook.png" alt=""></a>
-      <label>  Síguenos en facebook</label>
-    </div>
-    
-    <div class="row">
-      <a href="http://instagram.com">
-      <img src="../src/img/instagram.png" alt=""></a>
-      <label>  Síguenos en instagram</label>
-    </div>
-    <div class="row">
-    <a href="http://twitter.com">  
-     <img src="../src/img/twitter.png" alt=""></a>
-      <label>  Síguenos en twitter</label>
-    </div>
-    <div class="row">
-      <a href="http://google.com">
-      <img src="../src/img/google-plus.png" alt=""></a>
-      <label>  Síguenos en gogleplus</label>
-    </div></div>
-    <div class="colum3">
-      <h1>
-        Información contactos</h1>
-      <div class="row2">
-        <img src="../src/img/home.png" alt="">
-        <label>Perú calle 1</label>
-      </div> 
-      <div class="row2">
-        <img src="../src/img/phone-call.png" alt="">
-        <label>+999999999</label>
-      </div> 
-      <div class="row2">
-        <img src="../src/img/email.png" alt="">
-        <label>correo@gmail.com</label>
-      </div> 
-      </div>
-  </div>
-   </div><div class="container-footer">
-      <div class="footer">
-    <div class="copyright">
-      © 2019 todos los derechos reservados
-    </div>
-    </div></div>
-</footer>
 
-<script src="cipher.js"></script>
-<script src="index.js"></script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>cifrado cesar </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../src/style.css">
+  <link rel="shortcut icon" href="../src/img/candado.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="Header">
+    <div class="Header-background"></div>
+    <div class="Header-content">
+      <div class="Header-hero">
+        <h1>SEGURIDAD SIEMPRE <br> A TU ALCANCE</h1>
+        <p>La protección digital que necesitas en tu vida</p>
+        <a class="Button" href="https://yenifergalarza.github.io/LIM009-Cipher/">Lee más</a>
+
+      </div>
+      <div class="Header-visuals">
+        <div class="Iphone">
+          <div class="maincontainer">
+            <div class="threecontainer">
+              <div class="columncontainer">
+                <label for="cipher">Cifra</label>
+                <textarea placeholder="pon tu mensaje a cifrar..." cols="30" rows="5" id="cipher" name="cipher"></textarea>
+                <button type="button" id="cipherButton">Cifrar</button>
+                <p id="cipherText"></p>
+              </div>
+            </div>
+
+            <div class="threecontainer offset">
+              <label for="offset">Offset </label>
+              <input type="number" id="offset" placeholder="ingresa un numero y mueve tu texto...">
+            </div>
+
+            <div class="threecontainer">
+              <div class="columncontainer">
+                <label for="decipher">Descifra</label>
+                <textarea rows="5" cols="30" id="decipher" placeholder="pon tu mensaje a descifrar..." name="decipher"></textarea>
+                <button type="button" id="decipherButton">Descifrar</button>
+                <p id="decipherText"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+
+    <div class="container-footer-all">
+      <div class="container-body">
+        <div class="colum1">
+          <h1>Mas información del proyecto</h1>
+          <p>Cifrar significa codificar, el cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
+            un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que
+            se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.</p>
+        </div>
+        <div class="colum2">
+          <h1>Redes sociales</h1>
+          <div class="row">
+            <a href="http://facebook.com">
+              <img src="../src/img/facebook.png" alt=""></a>
+            <label> Síguenos en facebook</label>
+          </div>
+
+          <div class="row">
+            <a href="http://instagram.com">
+              <img src="../src/img/instagram.png" alt=""></a>
+            <label> Síguenos en instagram</label>
+          </div>
+          <div class="row">
+            <a href="http://twitter.com">
+              <img src="../src/img/twitter.png" alt=""></a>
+            <label> Síguenos en twitter</label>
+          </div>
+          <div class="row">
+            <a href="http://google.com">
+              <img src="../src/img/google-plus.png" alt=""></a>
+            <label> Síguenos en gogleplus</label>
+          </div>
+        </div>
+        <div class="colum3">
+          <h1>
+            Información contactos</h1>
+          <div class="row2">
+            <img src="../src/img/home.png" alt="">
+            <label>Perú calle 1</label>
+          </div>
+          <div class="row2">
+            <img src="../src/img/phone-call.png" alt="">
+            <label>+999999999</label>
+          </div>
+          <div class="row2">
+            <img src="../src/img/email.png" alt="">
+            <label>correo@gmail.com</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2019 todos los derechos reservados
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
